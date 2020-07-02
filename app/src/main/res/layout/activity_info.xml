@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#fff">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ic_cross" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/invoice"
+        android:layout_gravity="center"
+        />
+
+        <TextView
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="All the advantages guaranteed by this application"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:padding="20dp"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimary"
+            android:padding="0dp"
+            android:text="      Protection of information"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="131dp"
+            android:layout_height="133dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_security_24"
+            android:textColor="#171717"
+            android:textSize="32.6sp" />
+
+        <TextView
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="20dp"
+            android:text="We work every day to develop the best algorithms and audit programs to prevent intrusion or hacking."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="0dp"
+            android:text="       Session authentication"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp"
+            android:background="@color/colorPrimary"/>
+
+        <ImageView
+            android:layout_width="131dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_star_24"
+            android:textColor="#171717"
+            android:textSize="32.6sp" />
+
+        <TextView
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="We require that users identify themselves each time they log in to the control panel. Passwords are hashed and stored in the database."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="20dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="0dp"
+            android:text="      Reliability and profitability"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp"
+            android:background="@color/colorPrimary"/>
+
+        <ImageView
+            android:layout_width="131dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_thumb_up_24"
+            android:textColor="#171717"
+            android:textSize="32.6sp" />
+
+        <TextView
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="This app guarantees you 100% profitability and reliability"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="20dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="NB: If you are faced with cases like, an invalid payment claim procedure, or any other problems regarding the use of the app,
+Please contact us at invoice_management@gmail.com or reach us at 77 123 45 67."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="20dp"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</ScrollView>
